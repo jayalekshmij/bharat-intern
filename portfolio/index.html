@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .education-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        
+        .education-frame {
+            border: 2px solid #79b304;
+            padding: 20px;
+            flex: 1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f7f7f7;
+        }
+    </style>
+</head>
+<body>
+
+    <table style="width:100%; background-color: #79b304;">
+        <tr>
+            <td><h2><a href="#home" style="color: #f7f5f5;">Home</a></h2></td>
+            <td><h2><a href="#about" style="color:#fdf7f7;">About</a></h2></td>
+            <td><h2><a href="#education" style="color:#eae4e4;">Education</a></h2></td>
+            <td><h2><a href="#skills" style="color: #fef9f9;">Skills</a></h2></td>
+            <td><h2><a href="#projects" style="color:#fcfbfb;">Projects</a></h2></td>
+            <td><h2><a href="#contact" style="color:#fcfbfb;">Contact</a></h2></td>
+        </tr>
+    </table>
+
+    <main>
+        <section id="home">
+            <h1 style="font-size: 36px; text-align: center; color:#79b304;">Welcome to my Portfolio</h1>
+            <h2>Hi I am Jayalekshmi J</h2>
+            <img src="img.jpg" alt="Profile Picture" width="300" height="200">
+        </section>
+
+        <section id="about">
+            <h1 style="font-size: 32px; color: #79b304;">About Me</h1>
+            <p>I am Jayalekshmi J, a final year MCA student. With a strong foundation in computer science principles and practical experience in software development, I am passionate about leveraging technology to solve real-world problems.
+
+            During my studies, I have developed a keen interest in areas such as software engineering, web development, database management, and data analytics. I have had the opportunity to work on various projects, which have helped me hone my skills in programming languages like Java, C, Python, and web technologies like HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <section id="education">
+            <h1 style="font-size: 32px; color:#79b304;">Education</h1>
+            <div class="education-container">
+                <div class="education-frame">
+                    <h2>Master of Computer Applications</h2>
+                    <p>Muthoot Institute of Science and Technology</p>
+                </div>
+                <div class="education-frame">
+                    <h2>Bachelor of Computer Applications</h2>
+                    <p>ABC High School, 2019-2022</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1 style="font-size: 32px; color:#79b304;">Skills</h1>
+            <ul>
+                <li>
+                    <h2>Programming Languages</h2>
+                    <p>C, C++, Python, Java</p>
+                </li>
+                <li>
+                    <h2>Web Development</h2>
+                    <p>HTML, CSS, JavaScript</p>
+                </li>
+                <li>
+                    <h2>Databases</h2>
+                    <p>MySQL, MongoDB</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h1 style="font-size: 32px; color:#79b304;">Projects</h1>
+            <ul>
+                <li>
+                    <h2>Online Bookstore</h2>
+                    <p>Developed an e-commerce platform for selling books online using Java and MySQL. Integrated payment gateway and user authentication.</p>
+                </li>
+                <li>
+                    <h2>Portfolio Website</h2>
+                    <p>Created a personal portfolio website using HTML, CSS, and JavaScript to showcase projects and skills.</p>
+                </li>
+                <li>
+                    <h2>Data Analytics Dashboard</h2>
+                    <p>Designed a dashboard using Python and Plotly to visualize and analyze sales data for a retail company.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h1 style="font-size: 32px; color:#79b304;">You can contact me via</h1>
+            <form>
+                <input type="text" name="name" placeholder="Name" required><br><br>
+                <input type="email" name="email" placeholder="Email" required><br><br>
+                <textarea name="message" placeholder="Message" required></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
